@@ -1,0 +1,51 @@
+.style {
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.style-inner {
+  margin-left: 200px;
+}
+
+.style-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.style-text-wraper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 85px;
+}
+
+.style-title {
+  margin-bottom: 86px;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 49px;
+}
+
+.style-text {
+  width: 464px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 30px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.style-images{
+  margin-left: 186px;
+}
+
+.style-image{
+  display: inline-block;
+  width: 750px;
+  height: 650px;
+  background-image: url(/images/style.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

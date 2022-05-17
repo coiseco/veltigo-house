@@ -1,0 +1,109 @@
+.header {
+
+  margin: 0 auto;
+  color: $color-light;
+  background-image: url(/images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.element-animation {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.element-animation .element-show {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0%);
+}
+
+.header-inner {
+  @include inner;
+}
+
+.header-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 42px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.animation {
+  display: none;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  list-style-type: none;
+  margin-left: 57px;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.menu-link {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: $color-light;
+
+  &:hover{
+    color: $color-dark;
+    transition: 400ms;
+  }
+}
+
+.header-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 483px;
+}
+
+.telephone {
+  margin-right: 52px;
+  text-decoration: none;
+  color: $color-light;
+  font-size: 16px;
+  line-height: 19px;
+
+  &:hover{
+    color: $color-dark;
+    transition: 400ms;
+  }
+}
+
+.header-wrapper-title {
+  margin-top: 236px;
+}
+
+.header-title {
+  font-family: 'cormorant-v16-latin_cyrillic-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 145px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.header-text {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 306px;
+}

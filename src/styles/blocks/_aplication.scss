@@ -1,0 +1,61 @@
+.aplication {
+  margin: 0 auto;
+  background-color: $color-dark;
+}
+
+.aplication-inner {
+  padding-left: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aplication-wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.aplication-title {
+  margin-top: 167px;
+  margin-bottom: 90px;
+  color: $color-light;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 49px;
+}
+
+.aplication-phone {
+  margin-top: 107px;
+  text-decoration: none;
+  color: $color-light;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  &:hover{
+    color: $color-gray;
+    transition: 400ms;
+  }
+}
+
+.aplication-mail{
+  margin-top: 25px;
+  text-decoration: none;
+  color: $color-light;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  &:hover{
+    color: $color-gray;
+    transition: 400ms;
+  }
+}
+
+.aplication-img-text {
+  display: inline-block;
+  width: 749px;
+  height: 976px;
+  background-image: url(/images/form-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

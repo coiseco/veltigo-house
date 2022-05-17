@@ -1,0 +1,51 @@
+.characteristics {
+  margin: 0 auto;
+  padding: 190px 0;
+}
+
+.characteristic-inner {
+  @include inner;
+}
+
+.characteristic-title {
+  margin-bottom: 82px;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 49px;
+  text-align: left;
+}
+
+.characteristic-table{
+  border-collapse: collapse;
+}
+
+.characteristic-coll{
+
+
+  &:hover{
+    background-color: $color-dark;
+    transition: 600ms;
+    color: $color-light;
+  }
+}
+
+.characteristic-cells{
+  width: 100%;
+  border-spacing: 0;
+  border-top: 1px solid rgba($color-dark , .1);
+  padding: 20px 0;
+  padding-left: 475px;
+  padding-right: 91px;
+
+  &:first-child{
+    width: 175px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &+.last{
+    border-bottom: 1px solid rgba($color-dark , .1);
+  }
+
+
+}

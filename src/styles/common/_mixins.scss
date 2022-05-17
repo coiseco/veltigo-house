@@ -1,0 +1,30 @@
+@mixin inner {
+  max-width: 1399px + $gap;
+  margin: 0 auto;
+  padding: 0 $gap-half;
+  // border: 1px solid red;
+}
+
+@mixin title1 {
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 49px;
+}
+
+@mixin title2 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+@mixin text26px {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+@mixin text16px {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}

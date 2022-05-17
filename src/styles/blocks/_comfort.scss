@@ -1,0 +1,60 @@
+.comfort {
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.comfort-inner {
+  margin-right: 200px;
+}
+
+.comfort-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comfort-text-wraper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+}
+
+.comfort-title {
+  margin-bottom: 81px;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 49px;
+}
+
+.comfort-title-small {
+  width: 436px;
+  height: 108px;
+  margin-bottom: 37px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.comfort-text {
+  width: 550px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.comfort-images {
+  margin-right: 100px;
+}
+
+.comfort-image {
+  display: inline-block;
+  width: 750px;
+  height: 760px;
+  background-image: url(/images/comfort.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

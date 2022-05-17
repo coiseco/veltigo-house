@@ -1,0 +1,121 @@
+.btn {
+  // display: inline-block;
+  margin: 0 auto;
+  width: 175px;
+  height: 55px;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  background: none;
+  color: $color-light;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  transition: 0.75s;
+  position: relative;
+  overflow: hidden;
+
+  // &:hover{
+  //   background-color: #ffffff;
+  //   color: $color-dark;
+
+  // }
+
+
+
+
+  &::after {
+    content: 'Оставить заявку';
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color: $color-light;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 0.35s;
+    padding-top: 18px;
+  }
+
+  &:hover::after {
+    transform: translateY(0);
+  }
+
+  &.btn-field{
+    margin-top: 52px;
+    margin: 0;
+  }
+}
+
+.btn-text {
+  display: block;
+  position: relative;
+  // z-index: 3;
+  color: $color-light;
+  text-decoration: none;
+  padding-top: 18px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn-offer {
+  // display: inline-block;
+  margin: 0;
+  width: 175px;
+  height: 55px;
+  text-decoration: none;
+  border: 1px solid $color-dark;
+  background: none;
+  color: $color-dark;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  transition: 0.75s;
+  position: relative;
+  overflow: hidden;
+
+  // &:hover{
+  //   background-color: #ffffff;
+  //   color: $color-dark;
+
+  // }
+
+
+
+
+  &::after {
+    content: 'Оставить заявку';
+    color: $color-light;
+    width: 100%;
+    height: 100%;
+    background-color: $color-dark;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 0.35s;
+    padding-top: 18px;
+  }
+
+  &:hover::after {
+    transform: translateY(0);
+  }
+}
+
+.btn-text-offer {
+  display: block;
+  position: relative;
+  // z-index: 3;
+  text-decoration: none;
+  cursor: pointer;
+  color: $color-dark;
+  padding-top: 18px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 19px;
+}
